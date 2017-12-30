@@ -1,11 +1,14 @@
 # -*- coding: utf8 -*-
-import requests
 import json
-import random
 import time
-from jsontraverse.parser import JsonTraverseParser
 from time import sleep
-import codecs
+
+import requests
+from jsontraverse.parser import JsonTraverseParser
+
+import os
+import jprops
+
 
 
 # global env
@@ -20,14 +23,27 @@ accept_Encoding = ""
 content_Length = '65'
 bossList = []
 headers = {}
-directoryLocation = "/Users/max/Documents/Project/mitmSource/mitmproxy/examples/botVerOne/"
+# directoryLocation = "/Users/max/Documents/Project/mitmSource/mitmproxy/examples/botVerOne/"
+directoryLocation = os.getcwd()
 wantedMobs = 63
 
+#read Data from a property file
+# cp = configparser.ConfigParser()
+# cp.readfp(open(directoryLocation+"/general.properties"))
+# testValriable = cp.getint("mainUrl")
 
+# p = Properties()
+# with open(directoryLocation+"/general.properties", "r") as f:
+# 	p.load(f,"utf-8")
+#
+# for key in p.keys():
+# 	print(key, p[key])
+# testVal = p["foo"]
 
+with open(directoryLocation+'/general.properties') as fp:
+  properties = jprops.load_properties(fp)
 
-
-
+currentURL = properties["url"]
 class botV1:
 
     def __init__(self):
@@ -38,7 +54,7 @@ class botV1:
         with open('botLoc.json') as data_file:
             data = json.load(data_file)
             dumpedData = json.dumps(data)
-        url = "http://w024.cryuni.com/api/Alliance/getFieldBossHelpRequests"
+        url = currentURL+"/api/Alliance/getFieldBossHelpRequests"
         global rhash
         global userAgent
         global cookie
@@ -67,7 +83,7 @@ class botV1:
         print(url + "\n")
 
     def startHitting(location):
-        url = "http://w024.cryuni.com:80/api/Field/marchFieldBoss"
+        url = currentURL+"/api/Field/marchFieldBoss"
         # head
         global rhash
         global userAgent
@@ -155,7 +171,7 @@ class botV1:
     def RefillStamima(anything):
         print(anything)
         print("Drink Potion!")
-        url = "http://w024.cryuni.com/api/Item/useConsumable"
+        url = currentURL+"/api/Item/useConsumable"
         # head
         global rhash
         global userAgent
@@ -206,7 +222,7 @@ class botV1:
         text_file = open("wantedBoss", "r")
         wantedBoss = text_file.readlines()
         text_file.close()
-        url = "http://w024.cryuni.com/api/Bookmark/addBookmark"
+        url = currentURL+"/api/Bookmark/addBookmark"
         # head
         global rhash
         global userAgent
@@ -248,7 +264,7 @@ class botV1:
         bookMarkID = parser.traverse("bookmarks.item.id")
         #set header forDeletiion
         sleep(0.5)
-        url = "http://w024.cryuni.com/api/Bookmark/removeBookmark"
+        url = currentURL+"/api/Bookmark/removeBookmark"
         localHeaders = {
             'Cookie': cookie,
             'Content-Type': content_Type,
