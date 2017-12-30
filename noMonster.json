@@ -1,0 +1,7 @@
+{
+	"application_error": {
+		"type": 7,
+		"message": "No Monsters at destination.",
+		"message_code": null
+	}
+}

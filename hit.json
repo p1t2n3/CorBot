@@ -1,0 +1,190 @@
+{
+	"sync": {
+		"main_quest": {
+			"action": 2,
+			"item": {
+				"completion_condition": {
+					"discriminator": 1,
+					"building_master_id": 7,
+					"grade": 16,
+					"count": 1
+				},
+				"main_quest_master": {
+					"drama_id": 716,
+					"tutorial_type": 1,
+					"has_completed_drama": false
+				},
+				"quest": {
+					"id": 716,
+					"quest_type": 1,
+					"rewards": [{
+						"discriminator": 2,
+						"parameter_code": 64,
+						"quantity": 34000
+					}, {
+						"discriminator": 2,
+						"parameter_code": 128,
+						"quantity": 34000
+					}, {
+						"discriminator": 2,
+						"parameter_code": 256,
+						"quantity": 34000
+					}, {
+						"discriminator": 2,
+						"parameter_code": 512,
+						"quantity": 34000
+					}, {
+						"discriminator": 2,
+						"parameter_code": 1024,
+						"quantity": 34000
+					}, {
+						"discriminator": 3,
+						"quantity": 40960
+					}, {
+						"discriminator": 10,
+						"quantity": 20480
+					}],
+					"name": "Level Up Hospital",
+					"outline": "Upgrade your Hospital to Lv16.",
+					"description": "Upgrade your Hospital to Lv16. Tap your Hospital and press the \u0022Level Up\u0022 button to raise your facility\u0027s level!"
+				}
+			}
+		},
+		"jobs": [{
+			"action": 0,
+			"item": {
+				"discriminator": 1,
+				"id": 6492507,
+				"start_date": "2017\/11\/19 08:53:10",
+				"finish_date": "2017\/11\/19 08:53:39",
+				"original_finish_date": "2017\/11\/19 08:53:39",
+				"cancel_type": 1,
+				"user_outline": {
+					"id": 1084694,
+					"name": "MaximusX",
+					"home_world_id": 24,
+					"image_id": 345,
+					"alliance_summary": {
+						"id": 43268,
+						"name": "Grarrrrr",
+						"tag": "Gra",
+						"icon_image_id": 17
+					},
+					"alliance_membership": {
+						"rank": 5
+					}
+				},
+				"origin": 42861489,
+				"destination": 39584671,
+				"destination_info": {
+					"discriminator": 2,
+					"master_id": 52021
+				},
+				"valiant_info": {
+					"id": 1,
+					"master_id": 1,
+					"template_id": 4,
+					"skin_template_id": null,
+					"exp": 259726167,
+					"owner_user_id": 1084694
+				},
+				"total_soldiers": null,
+				"soldiers": [],
+				"march_type": 1,
+				"rally_attack_id": null,
+				"animation_id": 10004
+			}
+		}],
+		"badges": [{
+			"action": 2,
+			"item": {
+				"type": 1,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 2,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 3,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 4,
+				"count": 2
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 5,
+				"count": 4
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 6,
+				"count": 95
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 7,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 8,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 9,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 10,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 11,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 12,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 13,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 14,
+				"count": 0
+			}
+		}, {
+			"action": 2,
+			"item": {
+				"type": 15,
+				"count": 1
+			}
+		}]
+	}
+}

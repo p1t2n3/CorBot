@@ -1,0 +1,10 @@
+{
+	"item_use_type": 0,
+	"item_use_option": {
+		"discriminator": 4,
+		"item_master_id": 770,
+		"job_id": "currentJobId",
+		"job_discriminator": 4
+	},
+	"quantity": 1
+}

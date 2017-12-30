@@ -1,0 +1,15 @@
+{
+	"valiant_id": 1,
+	"soldiers": [{
+		"master_id": 15,
+		"quantity": 223874
+	}, {
+		"master_id": 11,
+		"quantity": 100000
+	}, {
+		"master_id": 12,
+		"quantity": 50000
+	}],
+	"destination": "destination",
+	"type": 0
+}
