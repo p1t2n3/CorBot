@@ -51,7 +51,7 @@ class botV1:
 
     # Get All info from boss loc
     def getAllInfo(cookieInput):
-        with open('botLoc.json') as data_file:
+        with open(directoryLocation+'/data/botLoc.json') as data_file:
             data = json.load(data_file)
             dumpedData = json.dumps(data)
         url = currentURL+"/api/Alliance/getFieldBossHelpRequests"
@@ -96,7 +96,7 @@ class botV1:
         global content_Length
 
         # get Payload
-        with open('/Users/max/Documents/Project/mitmSource/mitmproxy/examples/botVerOne/hitBoss.json') as data_file:
+        with open(directoryLocation+'/data/hitBoss.json') as data_file:
             data = json.load(data_file)
             data["destination"] = location
             jsonPayload = json.dumps(data)
@@ -246,7 +246,7 @@ class botV1:
             'Accept-Encoding': accept_Encoding,
             'Content-Length': '80'}
 
-        with open('/Users/admin/Documents/mitmSource/mitmproxy/examples/botVerOne/addBM2') as data_file:
+        with open(directoryLocation+'/data/addBM2') as data_file:
             data = json.load(data_file)
             data['position']['position'] = bookMarkPosition
             jsonPayload = json.dumps(data)
@@ -275,7 +275,7 @@ class botV1:
             'Connection': connection,
             'Accept-Encoding': accept_Encoding,
             'Content-Length': '12'}
-        with open('/Users/admin/Documents/mitmSource/mitmproxy/examples/botVerOne/removeBookmark.json') as data_file:
+        with open(directoryLocation+'/data/removeBookmark.json') as data_file:
             data = json.load(data_file)
             data["id"] = bookMarkID
             jsonPayload = json.dumps(data)

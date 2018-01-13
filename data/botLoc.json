@@ -1,0 +1,130 @@
+{
+	"field_bosses": [{
+		"field_detail": {
+			"discriminator": 7,
+			"position": 7602921,
+			"field_boss": {
+				"id": 52267767,
+				"master_id": 52184,
+				"life": 51463,
+				"type": 0
+			},
+			"summoner_info": {
+				"summoner": {
+					"id": 1145404,
+					"name": "Santa Ghost",
+					"home_world_id": 24,
+					"image_id": 297
+				},
+				"summoner_alliance": {
+					"id": 41113,
+					"name": "Aethernity",
+					"tag": "AVR",
+					"icon_image_id": 17
+				},
+				"protection_end_date": "2017\/12\/31 10:17:27"
+			},
+			"ending_date": "2017\/12\/31 15:47:27"
+		},
+		"combo_bonus": null,
+		"user_outline": {
+			"id": 1084694,
+			"name": "MaximusX",
+			"home_world_id": 24,
+			"image_id": 640,
+			"alliance_summary": {
+				"id": 41113,
+				"name": "Aethernity",
+				"tag": "AVR",
+				"icon_image_id": 17
+			},
+			"alliance_membership": {
+				"rank": 5
+			}
+		}
+	}, {
+		"field_detail": {
+			"discriminator": 7,
+			"position": 43778801,
+			"field_boss": {
+				"id": 52200449,
+				"master_id": 51221,
+				"life": 2800,
+				"type": 0
+			},
+			"ending_date": "2017\/12\/31 11:20:01"
+		},
+		"combo_bonus": null,
+		"user_outline": {
+			"id": 1083991,
+			"name": "\ubc14\uce74\ub9ac\uc544",
+			"home_world_id": 24,
+			"image_id": 66,
+			"alliance_summary": {
+				"id": 41113,
+				"name": "Aethernity",
+				"tag": "AVR",
+				"icon_image_id": 17
+			},
+			"alliance_membership": {
+				"rank": 1
+			}
+		}
+	}, {
+		"field_detail": {
+			"discriminator": 7,
+			"position": 44237553,
+			"field_boss": {
+				"id": 52243041,
+				"master_id": 50261,
+				"life": 1212,
+				"type": 0
+			},
+			"ending_date": "2017\/12\/31 14:02:01"
+		},
+		"combo_bonus": null,
+		"user_outline": {
+			"id": 1083991,
+			"name": "\ubc14\uce74\ub9ac\uc544",
+			"home_world_id": 24,
+			"image_id": 66,
+			"alliance_summary": {
+				"id": 41113,
+				"name": "Aethernity",
+				"tag": "AVR",
+				"icon_image_id": 17
+			},
+			"alliance_membership": {
+				"rank": 1
+			}
+		}
+	}, {
+		"field_detail": {
+			"discriminator": 7,
+			"position": 46138105,
+			"field_boss": {
+				"id": 52180687,
+				"master_id": 51221,
+				"life": 2800,
+				"type": 0
+			},
+			"ending_date": "2017\/12\/31 10:14:01"
+		},
+		"combo_bonus": null,
+		"user_outline": {
+			"id": 1083991,
+			"name": "\ubc14\uce74\ub9ac\uc544",
+			"home_world_id": 24,
+			"image_id": 66,
+			"alliance_summary": {
+				"id": 41113,
+				"name": "Aethernity",
+				"tag": "AVR",
+				"icon_image_id": 17
+			},
+			"alliance_membership": {
+				"rank": 1
+			}
+		}
+	}]
+}
