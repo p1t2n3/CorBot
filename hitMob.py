@@ -289,12 +289,23 @@ class botV1:
         print("Renewing cookie!!!")
         text_file = open("cookieList", "r")
         cookieList = text_file.readlines()
+
         text_file.close()
 
         # cookie = random(cookieList)
         # set Header
         return cookieList[0]
 
+    def renewCookie(CurrentValue):
+        print("Renewing cookie!!!")
+        text_file = open("cookieList", "r")
+        cookieList = text_file.readlines().replace("value", CurrentValue)
+        text_file.close()
+
+        # cookie = random(cookieList)
+        # set Header
+        return cookieList[0]
+    
     def fightForTIme(minutes,location,range):
         t_end = time.time() + 60 * minutes
         while time.time() < t_end:
